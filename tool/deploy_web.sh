@@ -13,7 +13,9 @@ cd build/web
 touch .nojekyll
 rm -rf .git
 git init -q -b gh-pages
-git add -A
+# The build copies .gitignore files from the asset folders, and they would
+# keep the compiled shaders and scenes out of the commit.
+git add -A -f
 git -c user.name="$(git -C ../.. config user.name)" \
     -c user.email="$(git -C ../.. config user.email)" \
     commit -q -m "Deploy $(git -C ../.. rev-parse --short HEAD)"
