@@ -1,0 +1,118 @@
+{
+  "schema": 3,
+  "package": "emberwatch",
+  "entries": [
+    {
+      "family": "scene",
+      "id": "assets/models/boulder",
+      "file": "scene.boulder.9add7da5.fsceneb",
+      "stamp": "73021a59b845b21d",
+      "source": "assets/models/boulder.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/branches",
+      "file": "scene.branches.851201f1.fsceneb",
+      "stamp": "46018361d1718f49",
+      "source": "assets/models/branches.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/fern",
+      "file": "scene.fern.46c3816a.fsceneb",
+      "stamp": "19427ea9914835e7",
+      "source": "assets/models/fern.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/log_a",
+      "file": "scene.log_a.d98bb96a.fsceneb",
+      "stamp": "cea9a0ce7154707b",
+      "source": "assets/models/log_a.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/log_b",
+      "file": "scene.log_b.d98bad73.fsceneb",
+      "stamp": "b6c332cc2f594075",
+      "source": "assets/models/log_b.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/rocks_a",
+      "file": "scene.rocks_a.1cfc2475.fsceneb",
+      "stamp": "0fecc54b18b405a2",
+      "source": "assets/models/rocks_a.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/rocks_b",
+      "file": "scene.rocks_b.1cfc3b9c.fsceneb",
+      "stamp": "14c7c9fba1fb3156",
+      "source": "assets/models/rocks_b.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/stump_a",
+      "file": "scene.stump_a.3c29e23d.fsceneb",
+      "stamp": "b4d2ab70de1365c8",
+      "source": "assets/models/stump_a.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/stump_b",
+      "file": "scene.stump_b.3c29fcc4.fsceneb",
+      "stamp": "bbf2c3d90ee65767",
+      "source": "assets/models/stump_b.glb"
+    },
+    {
+      "family": "scene",
+      "id": "assets/models/trooper",
+      "file": "scene.trooper.23f0e320.fsceneb",
+      "stamp": "45bcdb880b9c29fe",
+      "source": "assets/models/trooper.glb"
+    },
+    {
+      "family": "texture",
+      "id": "assets/textures/bark_Diffuse",
+      "file": "texture.bark_Diffuse.5af046aa.ktx2",
+      "stamp": "9f9270411f3ee726",
+      "source": "assets/textures/bark_Diffuse.jpg"
+    },
+    {
+      "family": "texture",
+      "id": "assets/textures/bark_Rough",
+      "file": "texture.bark_Rough.0cc32bc6.ktx2",
+      "stamp": "452d4c6a822ce22e",
+      "source": "assets/textures/bark_Rough.jpg"
+    },
+    {
+      "family": "texture",
+      "id": "assets/textures/bark_nor_gl",
+      "file": "texture.bark_nor_gl.54bcbf5c.fstex",
+      "stamp": "a8e6ae01eb1675eb",
+      "source": "assets/textures/bark_nor_gl.jpg"
+    },
+    {
+      "family": "texture",
+      "id": "assets/textures/forest_floor_Diffuse",
+      "file": "texture.forest_floor_Diffuse.af6b5e60.ktx2",
+      "stamp": "b398d381ecc1ad43",
+      "source": "assets/textures/forest_floor_Diffuse.jpg"
+    },
+    {
+      "family": "texture",
+      "id": "assets/textures/forest_floor_Rough",
+      "file": "texture.forest_floor_Rough.0fdfb8d9.ktx2",
+      "stamp": "f897291d980ea169",
+      "source": "assets/textures/forest_floor_Rough.jpg"
+    },
+    {
+      "family": "texture",
+      "id": "assets/textures/forest_floor_nor_gl",
+      "file": "texture.forest_floor_nor_gl.6ab7ba2a.fstex",
+      "stamp": "e84cf6e293e87a66",
+      "source": "assets/textures/forest_floor_nor_gl.jpg"
+    }
+  ]
+}
