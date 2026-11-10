@@ -26,7 +26,7 @@ flutter test
 | --- | --- | --- |
 | macOS | Apple Silicon, profile | 120 fps five minutes into a run; 82 MB release app |
 | Web, JavaScript | headless Chrome (WebGL2), release | 60 fps with 275 enemies on screen |
-| Web, WebAssembly | headless Chrome (WebGL2), release | About 43 fps under the same load |
+| Web, WebAssembly | headless Chrome (WebGL2), release | 60 fps with the patched engine; about 43 fps with 0.24.3 |
 | iOS | iPhone 17 Pro simulator, debug | 60 fps |
 | Android | Pixel 9 Pro emulator, profile | Renders correctly over OpenGL ES |
 
@@ -34,10 +34,12 @@ The Android emulator here rasterises on the CPU, so its frame rate says
 nothing; no physical phone has run the game yet. Debug builds run at full
 speed too.
 
-The WebAssembly build is the slower of the two web builds: the game's own
-logic costs the same in both, but flutter_scene's WebGL backend copies
-instance data a byte at a time under dart2wasm. `flutter build web` without
-`--wasm` gives the faster JavaScript build.
+With the published flutter_scene 0.24.3, the WebAssembly build is the slower
+of the two: its WebGL backend copies instance data a byte at a time under
+dart2wasm. The live site is built against a patched engine
+([bdero/flutter_scene#533](https://github.com/bdero/flutter_scene/pull/533)),
+which makes it the faster build (about 4.5 ms of frame work against 6.7 ms for
+JavaScript). To reproduce it, point `dependency_overrides` at that branch.
 
 ## Controls
 
